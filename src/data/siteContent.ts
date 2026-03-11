@@ -14,7 +14,7 @@ export type SocialProofItem = {
 
 export const siteContent = {
   header: {
-    logoSrc: "/images/logo-nir.png",
+    logoSrc: "/images/logonir.png",
     logoText: "ניר יפרח",
     buttonText: "השארת פרטים",
   },
