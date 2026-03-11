@@ -84,7 +84,7 @@ export default function ContactSection() {
 
             setStatus({
                 type: "success",
-                message: "הפרטים נשלחו בהצלחה. ניר יחזור אליכם בהקדם.",
+                message: "הפרטים נשלחו בהצלחה, אחזור אליכם בהקדם.",
             });
 
             setFormValues(initialValues);
