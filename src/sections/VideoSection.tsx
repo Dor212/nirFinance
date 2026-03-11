@@ -13,12 +13,7 @@ export default function VideoSection() {
     const { title, description, src, poster } = siteContent.video;
 
     return (
-        <SectionFrame
-            id="video"
-            title={title}
-            description={description}
-            titleClassName="bg-gradient-to-l from-[var(--lime)] via-white to-[var(--orange)] bg-clip-text text-transparent"
-        >
+        <SectionFrame id="video" title={title} description={description}>
             <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-black/10 shadow-[0_18px_60px_rgba(0,0,0,0.16)]">
                 {src ? (
                     <video

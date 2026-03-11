@@ -31,11 +31,7 @@ export default function HeroSection() {
 
                         <h1 className="text-4xl font-black leading-[1.02] sm:text-5xl lg:text-6xl">
                             <span className="block text-white">{firstLine}</span>
-                            {secondLine ? (
-                                <span className="mt-2 block bg-gradient-to-l from-[var(--orange)] via-white to-[var(--lime)] bg-clip-text text-transparent">
-                                    {secondLine}
-                                </span>
-                            ) : null}
+                            {secondLine ? <span className="mt-2 block text-white">{secondLine}</span> : null}
                         </h1>
 
                         <p className="mx-auto mt-6 max-w-3xl text-lg leading-7 text-[var(--sand)] sm:text-xl sm:leading-8">

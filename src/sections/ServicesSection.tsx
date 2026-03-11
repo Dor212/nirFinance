@@ -52,12 +52,7 @@ const iconAccentClasses = [
     "text-[var(--lime)]",
     "text-[var(--orange)]",
 ];
-const titleAccentClasses = [
-    "bg-gradient-to-l from-white to-[var(--lime)] bg-clip-text text-transparent",
-    "bg-gradient-to-l from-white to-[var(--orange)] bg-clip-text text-transparent",
-    "bg-gradient-to-l from-white to-[var(--lime)] bg-clip-text text-transparent",
-    "bg-gradient-to-l from-white to-[var(--orange)] bg-clip-text text-transparent",
-];
+const titleAccentClasses = ["text-white", "text-white", "text-white", "text-white"];
 
 export default function ServicesSection() {
     return (

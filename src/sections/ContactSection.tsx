@@ -84,7 +84,7 @@ export default function ContactSection() {
 
             setStatus({
                 type: "success",
-                message: "הפרטים נשלחו בהצלחה, אחזור אליכם בהקדם.",
+                message: "הפרטים נשלחו בהצלחה. ניר יחזור אליכם בהקדם.",
             });
 
             setFormValues(initialValues);
@@ -105,7 +105,7 @@ export default function ContactSection() {
                 <div className="rounded-[calc(2rem-1px)] bg-[linear-gradient(180deg,rgba(10,22,18,0.92),rgba(16,48,40,0.96))] p-5 backdrop-blur-sm sm:p-8">
                     <form onSubmit={handleSubmit} dir="rtl">
                         <div className="mb-6 text-center">
-                            <h2 className="bg-gradient-to-l from-[var(--orange)] via-white to-[var(--lime)] bg-clip-text text-3xl font-black leading-[1.05] text-transparent sm:text-4xl">
+                            <h2 className="text-3xl font-black leading-[1.05] text-white sm:text-4xl">
                                 השאירו פרטים
                             </h2>
                             <p className="mt-3 text-base leading-7 text-[var(--sand)]">

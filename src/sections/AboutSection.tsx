@@ -48,7 +48,7 @@ export default function AboutSection() {
                         {siteContent.about.eyebrow}
                     </p>
 
-                    <h2 className="mt-2 bg-gradient-to-l from-[var(--orange)] via-white to-[var(--lime)] bg-clip-text text-3xl font-black leading-[1.05] text-transparent sm:text-4xl">
+                    <h2 className="mt-2 text-3xl font-black leading-[1.05] text-white sm:text-4xl">
                         {siteContent.about.name}
                     </h2>
 
