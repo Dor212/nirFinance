@@ -20,9 +20,9 @@ export const siteContent = {
   },
 
   socialLinks: {
-    whatsapp: "#",
-    instagram: "#",
-    youtube: "#",
+  whatsapp: "https://wa.me/972542006874",
+  instagram: "https://www.instagram.com/niryifrah?igsh=cWQ0Z2JkdDdzcHQ1",
+  youtube: "#",
   },
 
   hero: {
