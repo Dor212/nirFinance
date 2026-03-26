@@ -92,7 +92,7 @@ export default function FinancialQuizPage() {
 
           <div className={`flex flex-1 flex-col ${showCompactHeader ? "px-4 py-4 sm:px-8 sm:py-8" : "px-4 py-5 sm:px-8 sm:py-8"}`}>
             {showCompactHeader ? (
-              <header className={`mb-4 text-center sm:mb-6 ${isIntro ? "mx-auto max-w-[19rem] sm:max-w-[22rem]" : "mx-auto max-w-[22rem] sm:max-w-[24rem]"}`} dir="rtl">
+              <header className={`mb-2.5 text-center sm:mb-4 ${isIntro ? "mx-auto max-w-[19rem] sm:max-w-[22rem]" : "mx-auto max-w-[22rem] sm:max-w-[24rem]"}`} dir="rtl">
                 <p className="mb-1 text-[10px] font-bold tracking-[0.2em] text-[var(--lime)]/82 uppercase sm:text-xs">
                   תכנון פיננסי אישי ומשפחתי
                 </p>
@@ -100,7 +100,7 @@ export default function FinancialQuizPage() {
                   בדיקת המצב הפיננסי שלך
                 </h1>
                 {screen !== "lead" ? (
-                  <p className="mt-1 text-[0.82rem] leading-5 text-white/62 sm:mt-2 sm:text-[0.95rem]">האם הכסף שלך עובד בשבילך?</p>
+                  <p className="mt-0.5 text-[0.82rem] leading-5 text-white/62 sm:mt-1 sm:text-[0.95rem]">האם הכסף שלך עובד בשבילך?</p>
                 ) : null}
               </header>
             ) : null}
