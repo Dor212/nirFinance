@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import SocialSidebar from "./components/SocialSidebar";
 import HomePage from "./pages/HomePage";
 import LegalPage from "./pages/LegalPage";
+import FinancialQuizPage from "./pages/FinancialQuizPage";
 
 function getCurrentPath() {
   if (typeof window === "undefined") {
@@ -30,6 +31,11 @@ export default function App() {
   }, []);
 
   const isLegalPage = pathname === "/legal";
+  const isQuizPage = pathname === "/qos";
+
+  if (isQuizPage) {
+    return <FinancialQuizPage />;
+  }
 
   return (
     <>
