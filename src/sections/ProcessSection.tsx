@@ -1,4 +1,3 @@
-import SectionFrame from "../components/SectionFrame";
 import { siteContent } from "../data/siteContent";
 import { renderLines } from "../utils/renderLines";
 
